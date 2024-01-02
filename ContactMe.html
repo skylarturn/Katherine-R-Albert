@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #330236;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+
+        section {
+            float: left;
+            width: 100%;
+            padding: 20px;
+            box-sizing: border-box;
+            text-align: center; /* Centering content in the section */
+        }
+
+        h2 {
+            color: #330236;
+        }
+
+        .social-buttons {
+            display: flex;
+            justify-content: center; /* Centering the social buttons */
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .social-buttons button {
+            background-color: #4267B2; /* Facebook blue */
+            color: #fff;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .social-buttons button:hover {
+            background-color: #3B5998; /* Darker shade on hover */
+        }
+
+        .phone-number {
+            margin-top: 20px;
+            color: #060000;
+            font-size: 18px;
+        }
+
+        .header-buttons {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .header-buttons button {
+            background-color: #330236;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        .header-buttons button:hover {
+            background-color: #3B5998; /* Darker shade on hover */
+        }
+
+        footer {
+            background-color: #330236;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Contact Me</h1>
+        <div class="header-buttons">
+            <button onclick="window.location.href='index.html'">Home</button>
+            <button onclick="window.location.href='AboutMe.html'">About Me</button>
+        </div>
+    </header>
+
+    <div class="container">
+
+        <section>
+            <h2>Get in Touch</h2>
+
+            <div class="social-buttons">
+                <button onclick="window.location.href='https://www.facebook.com/katherine.crowalbert'">Connect on Facebook</button>
+                <button onclick="window.location.href='mailto:realtorkalbert@gmail.com'">Send an Email</button>
+            </div>
+
+            <p class="phone-number">Mobile: 225-223-2383 <br> Office: 225-687-0050</p>
+
+        </section>
+
+    </div>
+
+    <footer>
+        &copy; 2024 Katherine R. Albert @ West Bank Realty. All rights reserved.
+    </footer>
+
+</body>
+</html>
